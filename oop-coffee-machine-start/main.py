@@ -19,3 +19,5 @@ while True:
         drink = menu.find_drink(choice)
         if make_coffee.is_resource_sufficient(drink) and money_machine.make_payment(drink.cost):
             make_coffee.make_coffee(drink)
+            break
+            
